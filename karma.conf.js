@@ -28,7 +28,7 @@ module.exports = function setKarmaConfig(config) {
         console.error(message);
       },
       format: 'iife',  // Helps prevent naming collisions.
-      moduleName: 'wisp.ad.AdLoader', // Required for 'iife' format.
+      moduleName: 'noname', // Required for 'iife' format.
       sourceMap: 'inline', // Sensible for testing.
     },
     coverageReporter: {
